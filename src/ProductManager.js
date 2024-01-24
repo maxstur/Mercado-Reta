@@ -1,29 +1,35 @@
-const fs = require('fs').promises;
+const fs = require("fs").promises;
 
 class ProductManager {
   constructor() {
-    this.path = './src/productos.json';
+    this.path = "./src/productos.json";
+    this.products = null;
+    this.loadProducts();
+  }
+
+  async loadProducts() {
+    try {
+      const rawData = await fs.readFile(this.path, "utf-8");
+      this.products = JSON.parse(rawData);
+      console.log("Productos cargados correctamente.");
+    } catch (error) {
+      console.error("Error al cargar los productos:", error);
+      throw error; // Lanzar el error para detener la ejecución
+    }
   }
 
   async getProducts(limit) {
-    const rawData = await fs.readFile(this.path, 'utf-8');
-    const products = JSON.parse(rawData);
-
     if (limit) {
-      return products.slice(0, limit);
+      return this.products.slice(0, limit);
     }
 
-    return products;
+    return this.products;
   }
 
   async getProductById(id) {
-    const rawData = await fs.readFile(this.path, 'utf-8');
-    const products = JSON.parse(rawData);
-
-    const product = products.find((p) => p.id === id);
-
+    const product = this.products.find((p) => p.id === id);
     if (!product) {
-      throw new Error('Producto no encontrado.');
+      throw new Error("Producto no encontrado.");
     }
 
     return product;

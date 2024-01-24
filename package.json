@@ -2,10 +2,10 @@
   "name": "c",
   "version": "1.0.0",
   "description": "mercado versátil y variado en punto de la costa",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
