@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "Producto 1",
+    "description": "Packs para music pros",
+    "price": 25.99,
+    "thumbnail": "https://example.com/product1.jpg",
+    "code": "ABC123",
+    "stock": 50
+  }
+]
+[
+    {
+      "id": 1,
+      "categoria": "Desarrollo Web",
+      "nombre": "Página Web Personalizada",
+      "descripcion": "Desarrollo de un sitio web adaptado a tus necesidades y preferencias.",
+      "precio": 499.99,
+      "imagen": "url_de_la_imagen1.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 2,
+      "categoria": "Diseño Gráfico",
+      "nombre": "Paquete de Identidad Visual",
+      "descripcion": "Creación de logotipo, tarjetas de visita y material promocional.",
+      "precio": 199.99,
+      "imagen": "url_de_la_imagen2.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 3,
+      "categoria": "Edición de Videos",
+      "nombre": "Servicio de Edición de Videos Profesionales",
+      "descripcion": "Edición y producción de videos de alta calidad para promociones y eventos.",
+      "precio": 349.99,
+      "imagen": "url_de_la_imagen3.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 4,
+      "categoria": "Desarrollo de Apps",
+      "nombre": "Aplicación Móvil Personalizada",
+      "descripcion": "Diseño y desarrollo de una aplicación móvil adaptada a tus necesidades.",
+      "precio": 799.99,
+      "imagen": "url_de_la_imagen4.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 5,
+      "categoria": "Software para Restaurantes",
+      "nombre": "Sistema de Gestión de Pedidos y Pagos",
+      "descripcion": "Software completo para restaurantes con funciones de carta digital y pago en línea.",
+      "precio": 599.99,
+      "imagen": "url_de_la_imagen5.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 6,
+      "categoria": "Software para Ferreterías",
+      "nombre": "Gestión de Inventario y Ventas",
+      "descripcion": "Software especializado para ferreterías con seguimiento de inventario y ventas.",
+      "precio": 449.99,
+      "imagen": "url_de_la_imagen6.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 7,
+      "categoria": "Software para Educación",
+      "nombre": "Plataforma de Gestión Académica",
+      "descripcion": "Software diseñado para la gestión académica con seguimiento de alumnos y profesores.",
+      "precio": 699.99,
+      "imagen": "url_de_la_imagen7.jpg",
+      "disponibilidad": true
+    },
+    {
+      "id": 8,
+      "categoria": "Servicio de Community Management",
+      "nombre": "Community Manager Profesional",
+      "descripcion": "Gestión de redes sociales para fortalecer la presencia online de tu marca.",
+      "precio": 299.99,
+      "imagen": "url_de_la_imagen8.jpg",
+      "disponibilidad": true
+    }
+  ]

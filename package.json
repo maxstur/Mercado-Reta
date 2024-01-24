@@ -1,0 +1,23 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "mercado versátil y variado en punto de la costa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxstur/Mercado-Reta.git"
+  },
+  "author": "mr.m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxstur/Mercado-Reta/issues"
+  },
+  "homepage": "https://github.com/maxstur/Mercado-Reta#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
